@@ -147,13 +147,13 @@ h1 {
   color: #fff;
 }
 /* DESKTOP */
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .todo-input {
     width: 320px;
   }
 }
 /* TINY MOBILE */
-@media only screen and (max-width: 440px) {
+@media (max-width: 440px) {
   .todo-button {
     display:block;
     margin: 20px auto;
