@@ -17,7 +17,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  width: 520px;
+  max-width: 520px;
+  width: 90%;
   min-height: 600px;
   background: #161a2b;
   text-align: center;
@@ -46,7 +47,7 @@ h1 {
   border-radius: 4px 0 0 4px;
   border: 2px solid #5d0cff;
   outline: none;
-  width: 320px;
+  width: 280px;
   background: transparent;
   color: #fff;
 }
@@ -144,4 +145,17 @@ h1 {
 
 .edit-icon {
   color: #fff;
+}
+/* DESKTOP */
+@media only screen and (min-width: 768px) {
+  .todo-input {
+    width: 320px;
+  }
+}
+/* TINY MOBILE */
+@media only screen and (max-width: 420px) {
+  .todo-button {
+    display:block;
+    margin: 20px auto;
+  }
 }
