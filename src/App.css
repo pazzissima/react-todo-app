@@ -146,16 +146,18 @@ h1 {
 .edit-icon {
   color: #fff;
 }
-/* DESKTOP */
-@media (min-width: 768px) {
-  .todo-input {
-    width: 320px;
-  }
-}
+
 /* TINY MOBILE */
 @media (max-width: 440px) {
   .todo-button {
     display:block;
     margin: 20px auto;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .todo-input {
+    width: 320px;
   }
 }
